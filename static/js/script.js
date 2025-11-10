@@ -333,7 +333,7 @@ mergeForm.addEventListener('submit', async (e) => {
             setTimeout(() => {
                 arquivosSelecionados = [];
                 atualizarLista();
-            }, 2000);
+            }, 2100);
         }, 500);
         
     } catch (error) {

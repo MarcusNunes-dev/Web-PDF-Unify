@@ -189,7 +189,7 @@ body {
     display: inline-block;
     font-size: 14px;
     font-weight: bold;
-    box-shadow: 0 3px 10px rgba(102, 126, 234, 0.3);
+    box-shadow: 0 3px 10px rgba(101, 126, 234, 0.3);
     animation: slideDown 0.3s ease;
 }
 

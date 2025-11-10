@@ -10,7 +10,7 @@ app.secret_key = 'sua-chave-secreta-aqui-123'
 app.permanent_session_lifetime = timedelta(minutes=30)
 
 # Configurações
-USUARIOS_FILE = r'C:\Users\marcus.nunes\Projects\Project-PDF_WEB\usuarios.txt'
+USUARIOS_FILE = r'C:\seu-diretorio\usuarios.txt'  # Altere para o caminho correto do arquivo
 MAX_CONTENT_LENGTH = 100 * 1024 * 1024
 
 
@@ -96,7 +96,7 @@ def login():
         return redirect(url_for('index'))
     
     if request.method == 'POST':
-        print("\n📨 RECEBENDO DADOS DO FORMULÁRIO...")
+        print("\n📨 RECEBENDO DADOS DO FORMULÁRIO..")
         
         # Pega o email do formulário
         email = request.form.get('email', '').strip().lower()

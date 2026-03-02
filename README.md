@@ -1,73 +1,50 @@
-Web-PDF-Unify
-Web-PDF-Unify é uma aplicação web desenvolvida para simplificar a gestão de documentos digitais. Com ela, os usuários podem realizar o upload de múltiplos arquivos PDF e unificá-los em um único documento de forma rápida e eficiente.
+📄 Web-PDF-Unify
+Transforme vários PDFs em um só em segundos. Uma ferramenta leve, rápida e intuitiva construída com Python e Flask.
 
-Funcionalidades
-Upload Dinâmico: Seleção de múltiplos arquivos PDF para processamento.
+🎯 Sobre o Projeto
+O Web-PDF-Unify nasceu da necessidade de simplificar a manipulação de documentos PDF via navegador. Esqueça ferramentas pesadas ou sites cheios de anúncios; aqui o foco é privacidade e agilidade.
 
-Unificação (Merge): Combinação dos arquivos enviados em um único PDF final.
+✨ Principais Funcionalidades
+✅ Merge de PDF: Combine múltiplos arquivos na ordem desejada.
 
-Interface Web: Ambiente amigável desenvolvido com Flask para interação direta no navegador.
+🚀 Processamento Local: Mais segurança para os seus dados.
 
-Download Direto: Após a unificação, o arquivo consolidado fica disponível para download imediato.
+📱 Interface Responsiva: Use no desktop ou no celular.
 
-Tecnologias Utilizadas
-Este projeto foi construído utilizando as seguintes ferramentas:
+⚡ Download Imediato: Sem filas de espera.
 
-Linguagem: Python
+🛠️ Tecnologias e Ferramentas
+O projeto utiliza o que há de melhor no ecossistema Python para web:
 
-Framework Web: Flask
+Backend: Flask (Micro-framework robusto).
 
-Manipulação de PDF: PyPDF2 (ou outra biblioteca de manipulação de PDF utilizada)
+Lógica de PDF: PyPDF2 para manipulação de streams de arquivos.
 
-Frontend: HTML5 e CSS3
+Frontend: HTML5 & CSS3 (com foco em UX).
 
-Pré-requisitos
-Antes de começar, você precisará ter instalado em sua máquina:
+Ambiente: Python 3.x.
 
-Python 3.x
+🚀 Como testar localmente
+Se você quer rodar o projeto na sua máquina, siga os passos abaixo:
 
-pip (Gerenciador de pacotes do Python)
-
-Git.
-
-Instalação e Execução
-Clone o repositório:
-
+1. Clonar o repositório
 Bash
 git clone https://github.com/MarcusNunes-dev/Web-PDF-Unify.git
-Entre no diretório do projeto:
-
-Bash
 cd Web-PDF-Unify
-Crie um ambiente virtual (recomendado):
-
+2. Configurar o ambiente (Opcional, mas recomendado)
 Bash
 python -m venv venv
-source venv/bin/activate  # No Windows: venv\Scripts\activate
-Instale as dependências:
-
+# Windows:
+venv\Scripts\activate
+# Linux/Mac:
+source venv/bin/activate
+3. Instalar dependências
 Bash
 pip install -r requirements.txt
-Execute a aplicação:
-
+4. Rodar a aplicação
 Bash
-flask run
-Ou, se houver um arquivo principal: python app.py
+python app.py
+Acesse: http://127.0.0.1:5000
 
-Acesse no navegador:
-Abra http://127.0.0.1:5000 para visualizar a aplicação.
-
-Contribuição
-Contribuições são bem-vindas! Siga os passos abaixo:
-
-Faça um Fork do projeto.
-
-Crie uma Branch para sua funcionalidade (git checkout -b feature/NovaFuncionalidade).
-
-Faça o Commit de suas alterações (git commit -m 'Adicionando nova funcionalidade').
-
-Envie para o repositório remoto (Push) (git push origin feature/NovaFuncionalidade).
-
-Abra um Pull Request.
-
-Desenvolvido por Marcus Nunes
+👤 Autor
+Feito com ☕ e código por Marcus Nunes.
